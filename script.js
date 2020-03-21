@@ -11,7 +11,7 @@ function Calculate() {
     var Multiple = Number1 * Number2
     var Division = Number1 / Number2
     if (Oper === Add) {
-    document.getElementById("Result").innerHTML = " = " + Plus
+    document.getElementById("Result").innerHTML = Number1 + "+" + Number2 + " = " + Plus
     }
     if (Oper === Sott) {
     	document.getElementById("Result").innerHTML = " = " + Minor
