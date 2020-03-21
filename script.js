@@ -4,9 +4,9 @@ function Calculate() {
     var Operator = document.getElementById("Operator").innerHTML
     var Plus = "+"
 
-     if(document.getElementById("Operator").innerHTML === Plus) {
+     if(document.getElementById("Operator").innerHTML = "+") {
 	  document.getElementById("Result").innerHTML = Number1 + Number2
     } else {
-      document.getElementById("Result").innerHTML = Error
+      document.getElementById("Result").innerHTML = "Error"
     }
 }
