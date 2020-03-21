@@ -1,12 +1,19 @@
 function Calculate() {
-    var Number1 = parseInt(document.getElementById("Number1").value);
-    var Number2 = parseInt(document.getElementById("Number2").value);
-    var Operator = document.getElementById("Operator").innerHTML
-    var Plus = "+"
+    var Plus = parseInt(document.getElementById("Number1").innerHTML) + parseInt(document.getElementById("Number2").innerHTML)
+    var Minor = parseInt(document.getElementById("Number1").innerHTML) - parseInt(document.getElementById("Number2").innerHTML)
+    var Multiple = parseInt(document.getElementById("Number1").innerHTML) * parseInt(document.getElementById("Number2").innerHTML)
 
-     if(document.getElementById("Operator").innerHTML === Plus) {
-	  document.getElementById("Result").innerHTML = Number1 + Number2
-    } else {
-      document.getElementById("Result").innerHTML = "Error"
+	if(document.getElementById("Operator").innerHTML = "+") {
+		document.getElementById("Result").innerHTML = "= " + Plus
     }
+    if(document.getElementById("Operator").innerHTML === "-") {
+		document.getElementById("Result").innerHTML = "= " + Minor
+    }
+     if(document.getElementById("Operator").innerHTML = "x") {
+		document.getElementById("Result").innerHTML = "= " + Multiple
+    }
+     if(document.getElementById("Operator").innerHTML = ":") {
+		document.getElementById("Result").innerHTML = "= " + Division
+    }
+}
 }
