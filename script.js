@@ -11,15 +11,15 @@ function Calculate() {
     var Multiple = Number1 * Number2
     var Division = Number1 / Number2
     if (Oper === Add) {
-    document.getElementById("Result").innerHTML = Number1 + "+" + Number2 + " = " + Plus
+    document.getElementById("Result").innerHTML = Number1 + " + " + Number2 + " = " + Plus
     }
     if (Oper === Sott) {
-    	document.getElementById("Result").innerHTML = " = " + Minor
+    	document.getElementById("Result").innerHTML = Number1 + " - " + Number2 +  " = " + Minor
     }
     if (Oper === Mult) {
-    	document.getElementById("Result").innerHTML = " = " + Multiple
+    	document.getElementById("Result").innerHTML = Number1 + " x " + Number2 +  " = " + Multiple
     }
     if (Oper === Div) {
-    	document.getElementById("Result").innerHTML = " = " + Division
+    	document.getElementById("Result").innerHTML = Number1 + " : " + Number2 +  " = " + Division
     }
 }
