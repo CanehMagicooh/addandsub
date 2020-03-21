@@ -3,7 +3,7 @@ function Calculate() {
     var Number2 = parseInt(document.getElementById("Number2").value);
     var Operator = document.getElementById("Operator").innerHTML
 
-     if(Operator = "+") {
+     if(Operator === "+") {
 	  document.getElementById("Result").innerHTML = Number1 + Number2
     }
 }
