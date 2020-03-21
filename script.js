@@ -1,5 +1,5 @@
 function Calculate() {
-    var Prova = 11
+    var Prova = 9
     var Number1 = parseInt(document.getElementById("Number1").value)
     var Number2 = parseInt(document.getElementById("Number2").value)
     var Oper = document.getElementById("Operator").value
