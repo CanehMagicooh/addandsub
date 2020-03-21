@@ -1,6 +1,6 @@
 function Calculate() {
-    var Plus = parseInt(document.getElementById("Number1").innerHTML) + parseInt(document.getElementById("Number2").innerHTML)
-    var Minor = parseInt(document.getElementById("Number1").innerHTML) - parseInt(document.getElementById("Number2").innerHTML)
-    var Multiple = parseInt(document.getElementById("Number1").innerHTML) * parseInt(document.getElementById("Number2").innerHTML)
+    var Number1 = parseInt(document.getElementById("Number1").innerHTML)
+    var Number2 = parseInt(document.getElementById("Number2").innerHTML)
+    var Plus = Number1 + Number2
     document.getElementById("Result").innerHTML = "= " + Plus
 }
